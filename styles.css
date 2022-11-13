@@ -1,0 +1,100 @@
+@font-face {
+    font-family: etchASketch;
+    src: url(./fonts/EASTRIAL.otf);
+}
+
+html {
+    background-color: #545C79 ;
+}
+
+.grid {
+    display: flex;
+    width: 860px;
+    height: 540px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 65px;
+}
+
+.column {
+    flex: 1;
+}
+
+.row {
+    background-color: #EAEAEA;
+}
+
+.container{
+    width: 1100px;
+    height: 800px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.etchBorder {
+    width: 1100px;
+    height: 800px;
+    background-color: #D32A38;
+    border-radius: 65px;
+    position:absolute;
+    z-index: -1;
+}
+
+.title {
+    font-family: etchASketch;
+    color: #F6AB5B;
+    font-size: 70px;
+    -webkit-text-stroke: 1px #F6AB5B;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    z-index: 1;
+}
+
+.knobRight {
+    width: 162px;
+    height: 162px;
+    border-radius: 50%;
+    background-color: #F5F5F5;
+    position: relative;
+    top: 47%;
+    left: -3%;
+    z-index: 1;
+    -webkit-box-shadow: 0px 0px 18px 5px rgba(0,0,0,0.5) inset;
+}
+
+.knobLeft {
+    width: 162px;
+    height: 162px;
+    border-radius: 50%;
+    background-color: #F5F5F5;
+    position: relative;
+    top: 67%;
+    left: 89%;
+    -webkit-box-shadow: -1px 5px 18px 0px rgba(0,0,0,0.5) inset;
+}
+
+.reset {
+    width: 176px;
+    height: 81px;
+    position:relative;
+    top: 30%;
+    left: 42%;
+    background-color: #F5F5F5;
+    border: none;
+    border-radius: 50px;
+    font-family: etchASketch;
+    font-size: 30px;
+    color: #F6AB5B;
+    -webkit-text-stroke: 1px #F6AB5B;
+}
+
+.reset:hover {
+    background-color:#F6AB5B;
+    color: #F5F5F5;
+    -webkit-text-stroke: 1px #F5F5F5;
+}
